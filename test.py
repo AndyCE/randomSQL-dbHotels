@@ -7,5 +7,5 @@ myconnection = myfunctions.myConnection (
     passwd='patata', 
     #db='db_hotels' # Se puede cambiar o no definir, ya que tiene default value
 )
-    
-myfunctions.num_sql(myconnection, 5)
+
+myfunctions.num_sql(myconnection, 5) # Hago 5 transacciones
